@@ -11,4 +11,4 @@ function basicOperations() {
     }
 }
 
-console.log(basicOperations());
+basicOperations();
