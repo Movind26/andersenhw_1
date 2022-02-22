@@ -4,7 +4,7 @@ function basicOperations() {
     return console.log('Input error!');
   }
   let secondOperand = +prompt('Enter second value', 0);
-  if (!firstOperand || isNaN(secondOperand)) {
+  if (!secondOperand || isNaN(secondOperand)) {
     return console.log('Input error!');
   } else {
       return console.log(`Answer: ${firstOperand + secondOperand}, ${firstOperand / secondOperand}.`);
