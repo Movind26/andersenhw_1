@@ -1,4 +1,4 @@
-function basicOperations() {
+function calcValues() {
   const firstOperand = +prompt('Enter first value', 0);
 
   if (!firstOperand || isNaN(firstOperand)) { // checking for falsy values & correct input
@@ -15,4 +15,4 @@ function basicOperations() {
 
 }
 
-basicOperations();
+calcValues();
